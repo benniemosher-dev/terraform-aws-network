@@ -1,6 +1,6 @@
-# variable "config" {
-#   description = "The config for creating this module."
-#   type = object({
-#     name = string
-#   })
-# }
+variable "config" {
+  description = "The config to create the ECS cluster with."
+  type = object({
+    kms-key = string
+  })
+}
