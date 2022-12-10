@@ -74,7 +74,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | git@github.com:benniemosher-dev/terraform-aws-cloudwatch-logs.git | v0.1.0 |
+| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | github.com/benniemosher-dev/terraform-aws-cloudwatch-logs | v0.1.0 |
 
 ## Resources
 
@@ -94,7 +94,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_config"></a> [config](#input\_config) | The config to create the ECS cluster with. | <pre>object({<br>    kms-key = string<br>  })</pre> | n/a | yes |
+| <a name="input_config"></a> [config](#input\_config) | The config to create the network with. | <pre>object({<br>    kms-key = string<br>  })</pre> | n/a | yes |
 
 ## Outputs
 
