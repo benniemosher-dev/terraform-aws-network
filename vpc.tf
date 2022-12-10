@@ -1,4 +1,5 @@
 # TODO: Secure the default VPC
+# tfsec:ignore:aws-ec2-no-default-vpc
 resource "aws_default_vpc" "this" {
   tags = {
     Name = "Default VPC"
