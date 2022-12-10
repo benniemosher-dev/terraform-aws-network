@@ -1,16 +1,8 @@
-# terraform-module
+# terraform-aws-network
 
-![CI Terraform](https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml/badge.svg)
+![CI Terraform](https://github.com/benniemosher-dev/terraform-aws-network/actions/workflows/ci-terraform.yml/badge.svg)
 
-🧱 A Terraform module template repo 🧱
-
-## ✅ TODO:
-
-Things to change when first creating a module:
-
-- [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
-- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
-- [ ] In `README.md` delete the [TODO](README.md#todo) section
+🕸️ A TF module for AWS Networks. 🕸️
 
 ## 📜 Usage:
 
