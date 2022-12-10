@@ -74,7 +74,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | git@github.com:benniemosher-dev/terraform-aws-cloudwatch-logs.git | bam/create-cloudwatch-logs-module |
+| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | git@github.com:benniemosher-dev/terraform-aws-cloudwatch-logs.git | v0.1.0 |
 
 ## Resources
 
