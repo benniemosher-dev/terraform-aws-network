@@ -1,0 +1,3 @@
+skip-check:
+  - CKV_TF_1    # Module sources use version tags, not commit hashes
+  - CKV_AWS_148 # aws_default_vpc manages existing default VPC, doesn't create one
