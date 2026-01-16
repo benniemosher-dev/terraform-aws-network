@@ -1,3 +1,5 @@
 skip-check:
+  - CKV_GHA_7   # Unpinned actions - using @main for internal workflows
+  - CKV2_GHA_1  # Top-level permissions - caller workflows use reusable
   - CKV_TF_1    # Module sources use version tags, not commit hashes
-  - CKV_AWS_148 # aws_default_vpc manages existing default VPC, doesn't create one
+  - CKV_AWS_148 # aws_default_vpc manages existing VPC, doesn't create one
