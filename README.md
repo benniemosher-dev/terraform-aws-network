@@ -60,46 +60,46 @@
 ## Requirements
 
 | Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.3 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.40 |
+| ---- | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.16.5 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 6.67.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.46.0 |
+| ---- | ------- |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.67.0 |
 
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
-| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | github.com/benniemosher-dev/terraform-aws-cloudwatch-logs | v0.1.0 |
+| ---- | ------ | ------- |
+| <a name="module_default-vpc-flow-logs"></a> [default-vpc-flow-logs](#module\_default-vpc-flow-logs) | github.com/benniemosher-dev/terraform-aws-cloudwatch-logs | v0.2.0 |
 
 ## Resources
 
 | Name | Type |
-|------|------|
-| [aws_default_subnet.a](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/default_subnet) | resource |
-| [aws_default_subnet.b](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/default_subnet) | resource |
-| [aws_default_subnet.c](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/default_subnet) | resource |
-| [aws_default_vpc.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/default_vpc) | resource |
-| [aws_flow_log.default-vpc](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/flow_log) | resource |
-| [aws_iam_role.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role) | resource |
-| [aws_iam_role_policy.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy) | resource |
-| [aws_iam_policy_document.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
-| [aws_iam_policy_document.vpc-flow-logs-assume-role](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
+| ---- | ---- |
+| [aws_default_subnet.a](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/default_subnet) | resource |
+| [aws_default_subnet.b](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/default_subnet) | resource |
+| [aws_default_subnet.c](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/default_subnet) | resource |
+| [aws_default_vpc.this](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/default_vpc) | resource |
+| [aws_flow_log.default-vpc](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/flow_log) | resource |
+| [aws_iam_role.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/iam_role) | resource |
+| [aws_iam_role_policy.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/iam_role_policy) | resource |
+| [aws_iam_policy_document.vpc-flow-logs](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/data-sources/iam_policy_document) | data source |
+| [aws_iam_policy_document.vpc-flow-logs-assume-role](https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/data-sources/iam_policy_document) | data source |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_config"></a> [config](#input\_config) | The config to create the network with. | <pre>object({<br>    kms-key = string<br>  })</pre> | n/a | yes |
+| ---- | ----------- | ---- | ------- | :------: |
+| <a name="input_config"></a> [config](#input\_config) | The config to create the network with. | <pre>object({<br/>    kms-key = string<br/>  })</pre> | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_subnets"></a> [subnets](#output\_subnets) | The subnet IDs created for the network. |
 | <a name="output_vpc"></a> [vpc](#output\_vpc) | The VPC ID created for the network. |
 <!-- END_TF_DOCS -->
